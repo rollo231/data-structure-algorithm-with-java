@@ -1,6 +1,6 @@
-package algorithm.queue;
+package data_structure.queue;
 
-import org.junit.jupiter.api.Assertions;
+import data_structure.queue.MyQueue;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
