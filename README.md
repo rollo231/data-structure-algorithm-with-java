@@ -2,7 +2,7 @@
 
 ## DataStructure
 
-### 1. [Queue]()
+### 1. [Queue](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/algorithm/queue)
 
 ## Algorithm
 
