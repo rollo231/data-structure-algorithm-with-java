@@ -19,8 +19,8 @@
     - push(): 데이터를 스택에 넣기
     - pop(): 데이터를 스택에서 꺼내기
 
-* https://visualgo.net/en/list
-  <img src="http://www.fun-coding.org/00_Images/stack.png" />
+* https://visualgo.net/en/list  
+<img src="http://www.fun-coding.org/00_Images/stack.png" />
 
 ### 2. 자료 구조 스택의 장단점
 
