@@ -6,7 +6,7 @@
 
 ### 2. [Stack](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/data_structure/stack)
 
-### 2. [LinkedList](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/data_structure/linked_list)
+### 3. [LinkedList](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/data_structure/linked_list)
 
 ## Algorithm
 
