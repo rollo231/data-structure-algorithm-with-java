@@ -77,13 +77,17 @@ public class DoubleLinkedList<T> {
             Node<T> node = this.head;
             while (node != null) {
                 if (node.data == existedData) {
-                    Node<T> nodePrev = node.prev;
+                    Node<T> newNode = new Node<>(addData);
+                    Node<T> prevNode = node.prev;
 
-                    nodePrev.next = new Node<>(addData);
-                    nodePrev.next.next = node;
-
-                    nodePrev.next.prev = nodePrev;
-                    node.prev = nodePrev.next;
+                    // 앞 노드 다음
+                    prevNode.next = newNode;
+                    // 새 노드 이전
+                    newNode.prev = prevNode;
+                    // 새 노드 다음
+                    newNode.next = node;
+                    // 현재 노드 이전
+                    node.prev = newNode;
 
                     return true;
                 } else {

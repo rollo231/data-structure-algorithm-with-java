@@ -22,7 +22,7 @@ class DoubleLinkedListTest {
         assertEquals(node.searchFromTail(2), 2);
         assertNull(node.searchFromTail(4));
 
-        assertTrue(node.insertToFront(1, 0));
+        assertTrue(node.insertToFront(2, 0));
         assertEquals(node.searchFromHead(0), 0);
 
         node.printAll();
