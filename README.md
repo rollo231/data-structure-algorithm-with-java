@@ -10,4 +10,6 @@
 
 ### 4. [Hash](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/data_structure/hash)
 
+### 5. [Tree](https://github.com/rollo231/data-structure-algorithm-with-java/tree/master/src/main/java/data_structure/tree)
+
 ## Algorithm
