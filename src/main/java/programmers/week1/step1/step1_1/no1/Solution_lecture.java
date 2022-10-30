@@ -6,8 +6,12 @@ public class Solution_lecture {
         int si = 0;
         int position = 1;
 
+        // 포지션 순회(아파트 길이 만큼)
         while (position <= n) {
+            // 기지국이 존재하고
+            // 기지국의 전파 범위가 포지션 보다 작거나 같으면(겹치면)
             if (si < stations.length && stations[si] - w <= position) {
+                // 전파 범위 최대 포지션 + 1 로 시작한다.
                 position = stations[si] + w + 1;
                 si += 1;
             } else {
