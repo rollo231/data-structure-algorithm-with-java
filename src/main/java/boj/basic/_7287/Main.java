@@ -1,4 +1,4 @@
-package boj._7287;
+package boj.basic._7287;
 
 public class Main {
 

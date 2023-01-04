@@ -1,4 +1,4 @@
-package boj._10699;
+package boj.basic._10699;
 
 import java.time.LocalDate;
 

@@ -1,9 +1,9 @@
-package boj._15651;
+package boj.brute_force._15651;
 
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class MainFastCampus {
     static StringBuilder sb = new StringBuilder();
 
     static void input() {
@@ -22,7 +22,9 @@ public class Main {
     static void rec_func(int k) {
         if (k == M + 1) { // 다 골랐다!
             // selected[1...M] 배열이 새롭게 탐색된 결과
-            for (int i = 1; i <= M; i++) sb.append(selected[i]).append(' ');
+            for (int i = 1; i <= M; i++) {
+                sb.append(selected[i]).append(' ');
+            }
             sb.append('\n');
         } else {
             for (int cand = 1; cand <= N; cand++) {
