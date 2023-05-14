@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/87377
 public class Solution {
     public String[] solution(int[][] line) {
         // 1. 모든 직선 쌍에 대해 반복
